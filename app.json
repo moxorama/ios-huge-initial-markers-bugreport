@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "ios-huge-map-markers",
+    "slug": "ios-huge-map-markers",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "pro.wizeman.exfb",
+      "buildNumber": "1",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDsEWwAWx8V0GutlB_Oonx5tZ9yThYlK-s"
+      }
+    }
+  }
+}
